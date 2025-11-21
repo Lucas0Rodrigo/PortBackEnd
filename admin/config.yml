@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main 
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "pagina_sites"
+    label: "Gerenciar Sites"
+    files:
+      - name: "meus_sites"
+        label: "Lista de Sites"
+        file: "dados/sites.json"
+        fields:
+          - label: "Sites Desenvolvidos"
+            name: "lista"
+            widget: "list"
+            fields:
+              - {label: "Nome do Projeto", name: "titulo", widget: "string"}
+              - {label: "Link do Site", name: "url", widget: "string"}
+              - {label: "Imagem do Print", name: "imagem", widget: "image"}
+              - label: "Compatibilidade Mobile"
+                name: "mobile"
+                widget: "select"
+                options: ["Funciona Bem", "Não Funciona Bem"]
+                default: "Funciona Bem"
