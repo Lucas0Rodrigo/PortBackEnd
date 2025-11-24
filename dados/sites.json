@@ -5,6 +5,12 @@
       "titulo": "Meu Primeiro Site",
       "url": "https://lucas0rodrigo.github.io/Site-de-Receitas/",
       "imagem": "/img/uploads/receita.png"
+    },
+    {
+      "mobile": "Não Funciona Bem",
+      "titulo": "E-commerce",
+      "url": "https://lucas0rodrigo.github.io/Ecommerce/",
+      "imagem": "/img/uploads/banner.webp"
     }
   ]
 }
