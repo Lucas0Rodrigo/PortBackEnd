@@ -11,6 +11,12 @@
       "titulo": "E-commerce",
       "url": "https://lucas0rodrigo.github.io/Ecommerce/",
       "imagem": "/img/uploads/banner.webp"
+    },
+    {
+      "mobile": "Funciona Bem",
+      "titulo": "Site Gincana",
+      "url": "https://lucas0rodrigo.github.io/EquipeGincana/",
+      "imagem": "/img/uploads/banner.webp"
     }
   ]
 }
